@@ -1,15 +1,16 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Transform Your Health & Fitness | Coaching for Men 30+</title>
+    <!-- Google Fonts - Orbitron -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Orbitron', sans-serif; /* Changed font to Orbitron */
             /* Base background and text colors will be set by JS based on theme */
         }
         /* Custom styles for form focus */
@@ -25,18 +26,18 @@
     <!-- Hero Section -->
     <header id="main-header" data-theme-target="header-gradient" class="relative py-20 md:py-32 overflow-hidden rounded-b-lg">
         <!-- Changed placeholder text for background image -->
-        <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('https://placehold.co/1920x1080/0f172a/cbd5e1?text=Tactical+Performance+Training');"></div>
+        <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('');"></div>
         <div class="container mx-auto px-4 relative z-10 text-center">
             <!-- Theme Toggle Button -->
             <button id="theme-toggle" class="absolute top-4 right-4 p-2 rounded-full bg-gray-700 text-white hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500 transition duration-200">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h3M4 12H3m15.325 5.325l-.707.707M6.372 6.372l-.707-.707m12.728 0l-.707-.707M6.372 17.628l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h1M4 12H3m15.325 5.325l-.707.707M6.372 6.372l-.707-.707m12.728 0l-.707-.707M6.372 17.628l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                 </svg>
             </button>
 
-            <h3 data-theme-target="header-main-text" class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 rounded-md">
+            <h1 data-theme-target="header-main-text" class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 rounded-md">
                 Unleash Your Potential: <span id="hero-span" data-theme-target="hero-span-text" class="block">Elite Fitness & Nutrition Coaching</span>
-            </h3>
+            </h1>
             <p data-theme-target="header-main-text" class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto rounded-md">
                 Our coaching builds resilience, strength, and vitality through cutting-edge functional movement and foundational nutrition strategies.
             </p>
@@ -49,9 +50,9 @@
     <!-- Problem/Solution Section -->
     <section id="problem-section" data-theme-target="section-bg-1" class="py-16 md:py-24 rounded-lg shadow-md mx-4 md:mx-auto mt-8 max-w-6xl">
         <div class="container mx-auto px-4 text-center">
-            <h3 id="problem-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
+            <h2 id="problem-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
                 Are You Experiencing These Challenges?
-            </h3>
+            </h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div id="problem-card-1" data-theme-target="card-bg-1" class="p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 ease-in-out">
                     <h3 data-theme-target="card-heading-text" class="text-xl font-semibold mb-3">Demanding Shifts & Chronic Stress</h3>
@@ -76,9 +77,9 @@
     <!-- How It Works / Benefits Section -->
     <section id="benefits-section" data-theme-target="section-bg-2" class="py-16 md:py-24 rounded-lg shadow-md mx-4 md:mx-auto mt-8 max-w-6xl">
         <div class="container mx-auto px-4 text-center">
-            <h3 id="benefits-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
+            <h2 id="benefits-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
                 Our Coaching: Your Path to Lasting Transformation
-            </h3>
+            </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div id="benefit-card-1" data-theme-target="card-bg-2" class="flex flex-col items-center p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 ease-in-out">
                     <div data-theme-target="emoji-color" class="text-5xl mb-4">💪</div> <!-- Emoji for icon -->
@@ -117,9 +118,9 @@
     <!-- Testimonial Section -->
     <section id="testimonial-section" data-theme-target="section-bg-1" class="py-16 md:py-24 rounded-lg shadow-md mx-4 md:mx-auto mt-8 max-w-6xl">
         <div class="container mx-auto px-4 text-center">
-            <h3 id="testimonial-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
+            <h2 id="testimonial-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
                 Hear From Our Clients
-            </h3>
+            </h2>
             <div id="testimonial-box" data-theme-target="card-bg-1" class="max-w-3xl mx-auto p-8 rounded-lg shadow-lg">
                 <p id="testimonial-text" data-theme-target="testimonial-italic-text" class="text-xl italic mb-6 leading-relaxed">
                     "Before coaching, I was stuck in a rut, feeling tired and out of shape. In just 3 months, I've lost 15 lbs, gained significant strength, and have more energy than I did in my 20s. This program is a game-changer for busy professionals."
@@ -136,9 +137,9 @@
     <!-- Latest Articles / Blog Section -->
     <section id="blog-section" data-theme-target="section-bg-2" class="py-16 md:py-24 rounded-lg shadow-md mx-4 md:mx-auto mt-8 max-w-6xl">
         <div class="container mx-auto px-4 text-center">
-            <h3 id="blog-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
+            <h2 id="blog-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
                 Latest Articles from Our Blog
-            </h3>
+            </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Blog Post 1 -->
                 <div id="blog-card-1" data-theme-target="card-bg-2" class="rounded-lg shadow-sm hover:shadow-md transition duration-300 ease-in-out overflow-hidden">
@@ -179,9 +180,9 @@
     <!-- Lead Capture Form Section -->
     <section id="form-section" data-theme-target="form-section-gradient" class="py-16 md:py-24 text-white rounded-lg shadow-md mx-4 md:mx-auto mt-8 mb-8 max-w-6xl">
         <div class="container mx-auto px-4 text-center">
-            <h3 id="form-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-6 rounded-md">
+            <h2 id="form-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-6 rounded-md">
                 Ready to Transform Your Health?
-            </h3>
+            </h2>
             <p id="form-subheading" data-theme-target="hero-span-text" class="text-xl md:text-2xl mb-12 max-w-3xl mx-auto rounded-md">
                 Spaces are limited to ensure personalized attention. Apply now for a <span class="font-bold">Free Discovery Call</span> to see if our coaching is the right fit for you.
             </p>
@@ -272,19 +273,19 @@
                 dark: ['text-blue-300'],
                 light: ['text-gray-800']
             },
-            'card-bg-1': { // Problem/Solution cards, Testimonial box, Form container
+            'card-bg-1': {
                 dark: ['bg-gray-700'],
                 light: ['bg-gray-50']
             },
-            'card-bg-2': { // Benefits cards, Blog cards
+            'card-bg-2': {
                 dark: ['bg-gray-800'],
                 light: ['bg-white']
             },
-            'card-heading-text': { // Card headings
+            'card-heading-text': {
                 dark: ['text-white'],
                 light: ['text-gray-700']
             },
-            'card-body-text': { // Card body text, problem-text-bottom
+            'card-body-text': {
                 dark: ['text-gray-300'],
                 light: ['text-gray-600']
             },
@@ -304,7 +305,7 @@
                 dark: ['text-blue-400', 'hover:text-blue-500'],
                 light: ['text-blue-600', 'hover:text-blue-800']
             },
-            'form-section-gradient': { // Form section background
+            'form-section-gradient': {
                 dark: ['from-gray-900', 'to-blue-900'],
                 light: ['from-blue-700', 'to-indigo-800']
             },
