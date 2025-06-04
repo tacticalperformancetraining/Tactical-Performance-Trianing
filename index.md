@@ -30,13 +30,13 @@
             <!-- Theme Toggle Button -->
             <button id="theme-toggle" class="absolute top-4 right-4 p-2 rounded-full bg-gray-700 text-white hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500 transition duration-200">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h1M4 12H3m15.325 5.325l-.707.707M6.372 6.372l-.707-.707m12.728 0l-.707-.707M6.372 17.628l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h3M4 12H3m15.325 5.325l-.707.707M6.372 6.372l-.707-.707m12.728 0l-.707-.707M6.372 17.628l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
                 </svg>
             </button>
 
-            <h1 data-theme-target="header-main-text" class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 rounded-md">
+            <h3 data-theme-target="header-main-text" class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 rounded-md">
                 Unleash Your Potential: <span id="hero-span" data-theme-target="hero-span-text" class="block">Elite Fitness & Nutrition Coaching</span>
-            </h1>
+            </h3>
             <p data-theme-target="header-main-text" class="text-xl md:text-2xl mb-8 max-w-3xl mx-auto rounded-md">
                 Our coaching builds resilience, strength, and vitality through cutting-edge functional movement and foundational nutrition strategies.
             </p>
