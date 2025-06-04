@@ -49,9 +49,9 @@
     <!-- Problem/Solution Section -->
     <section id="problem-section" data-theme-target="section-bg-1" class="py-16 md:py-24 rounded-lg shadow-md mx-4 md:mx-auto mt-8 max-w-6xl">
         <div class="container mx-auto px-4 text-center">
-            <h2 id="problem-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
+            <h3 id="problem-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
                 Are You Experiencing These Challenges?
-            </h2>
+            </h3>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div id="problem-card-1" data-theme-target="card-bg-1" class="p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 ease-in-out">
                     <h3 data-theme-target="card-heading-text" class="text-xl font-semibold mb-3">Demanding Shifts & Chronic Stress</h3>
@@ -76,9 +76,9 @@
     <!-- How It Works / Benefits Section -->
     <section id="benefits-section" data-theme-target="section-bg-2" class="py-16 md:py-24 rounded-lg shadow-md mx-4 md:mx-auto mt-8 max-w-6xl">
         <div class="container mx-auto px-4 text-center">
-            <h2 id="benefits-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
+            <h3 id="benefits-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
                 Our Coaching: Your Path to Lasting Transformation
-            </h2>
+            </h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div id="benefit-card-1" data-theme-target="card-bg-2" class="flex flex-col items-center p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 ease-in-out">
                     <div data-theme-target="emoji-color" class="text-5xl mb-4">💪</div> <!-- Emoji for icon -->
@@ -117,9 +117,9 @@
     <!-- Testimonial Section -->
     <section id="testimonial-section" data-theme-target="section-bg-1" class="py-16 md:py-24 rounded-lg shadow-md mx-4 md:mx-auto mt-8 max-w-6xl">
         <div class="container mx-auto px-4 text-center">
-            <h2 id="testimonial-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
+            <h3 id="testimonial-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
                 Hear From Our Clients
-            </h2>
+            </h3>
             <div id="testimonial-box" data-theme-target="card-bg-1" class="max-w-3xl mx-auto p-8 rounded-lg shadow-lg">
                 <p id="testimonial-text" data-theme-target="testimonial-italic-text" class="text-xl italic mb-6 leading-relaxed">
                     "Before coaching, I was stuck in a rut, feeling tired and out of shape. In just 3 months, I've lost 15 lbs, gained significant strength, and have more energy than I did in my 20s. This program is a game-changer for busy professionals."
@@ -136,9 +136,9 @@
     <!-- Latest Articles / Blog Section -->
     <section id="blog-section" data-theme-target="section-bg-2" class="py-16 md:py-24 rounded-lg shadow-md mx-4 md:mx-auto mt-8 max-w-6xl">
         <div class="container mx-auto px-4 text-center">
-            <h2 id="blog-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
+            <h3 id="blog-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-12 rounded-md">
                 Latest Articles from Our Blog
-            </h2>
+            </h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Blog Post 1 -->
                 <div id="blog-card-1" data-theme-target="card-bg-2" class="rounded-lg shadow-sm hover:shadow-md transition duration-300 ease-in-out overflow-hidden">
@@ -179,9 +179,9 @@
     <!-- Lead Capture Form Section -->
     <section id="form-section" data-theme-target="form-section-gradient" class="py-16 md:py-24 text-white rounded-lg shadow-md mx-4 md:mx-auto mt-8 mb-8 max-w-6xl">
         <div class="container mx-auto px-4 text-center">
-            <h2 id="form-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-6 rounded-md">
+            <h3 id="form-heading" data-theme-target="section-heading" class="text-3xl md:text-4xl font-bold mb-6 rounded-md">
                 Ready to Transform Your Health?
-            </h2>
+            </h3>
             <p id="form-subheading" data-theme-target="hero-span-text" class="text-xl md:text-2xl mb-12 max-w-3xl mx-auto rounded-md">
                 Spaces are limited to ensure personalized attention. Apply now for a <span class="font-bold">Free Discovery Call</span> to see if our coaching is the right fit for you.
             </p>
